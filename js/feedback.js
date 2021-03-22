@@ -46,8 +46,8 @@ function visit_site() {
 	).then (
 		client_info => {
 			fetch (
-				send_msg_api_url + "== JULY TECH WEBSITE ==\n" +
-				+ " | USR. Stamp: " + "USR_" + make_stamp(5)
+				send_msg_api_url + "== JULY TECH WEBSITE ==\n"
+				+ "USR. Stamp: " + "USR_" + make_stamp(5)
 				+ "%0A| Someone visting your site at: " + get_datetime()
 				+ "%0A| Site hostname: " + host_name
 				+ "%0A%0A" + client_info
